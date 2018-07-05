@@ -1,0 +1,22 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="Login" tests="9" errors="0" failures="0" skipped="0" timestamp="2018-07-04T17:33:21" time="4.845">
+    <testcase classname="Login" name="Login should succeed" time="0.783">
+    </testcase>
+    <testcase classname="Login" name="Response must have username passed" time="0.713">
+    </testcase>
+    <testcase classname="Login" name="Response must have passed authentication" time="0.807">
+    </testcase>
+    <testcase classname="Login" name="Response must have passed securely" time="0.821">
+    </testcase>
+    <testcase classname="Login" name="Response must have Expiry stamp, Email, displayname" time="0.707">
+    </testcase>
+    <testcase classname="Login" name="Check the Error response when tested with wrong credentials" time="0.233">
+    </testcase>
+    <testcase classname="Login" name="Check the Error response when incorrect username " time="0.204">
+    </testcase>
+    <testcase classname="Login" name="Check the Error response when username and password are passed incorrectly" time="0.297">
+    </testcase>
+    <testcase classname="Login" name="Check the Error response 404 when resource is not found" time="0.271">
+    </testcase>
+  </testsuite>
+</testsuites>
